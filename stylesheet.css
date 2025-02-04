@@ -1,0 +1,21 @@
+@font-face {
+    font-family : 'FOT-NewRodin Pro B';
+    src: url('.font/FOT-NewRodin Pro B.woff2') format(‘woff2’)
+}
+
+body {
+    font-family: 'FOT-NewRounded Pro B', sans-serif;
+    background-image: url(".image/background.png");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    border-radius: 1190px;
+    border: 12px solid #FFF;
+    background: #4B77A4;
+    box-shadow: -53px 1px 20.2px 0px rgba(5, 35, 85, 0.25) inset, 8px 22px 12.3px 0px rgba(5, 35, 85, 0.25);
+}
+
