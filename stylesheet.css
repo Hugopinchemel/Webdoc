@@ -3,19 +3,64 @@
     src: url('.font/FOT-NewRodin Pro B.woff2') format(‘woff2’)
 }
 
+
 body {
     font-family: 'FOT-NewRounded Pro B', sans-serif;
-    background-image: url(".image/background.png");
-    margin: 0;
-    padding: 0;
+    background: linear-gradient(to right, #6A85B6, #BAC8E0);
+    text-align: center;
+    color: #0A1F44;
+}
+.container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 20px;
+    color: #4A6076;
+}
+.video-section {
     display: flex;
-    height: 100vh;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+    padding-left: 20px;
 }
-
-.left {
-    border-radius: 1190px;
-    border: 12px solid #FFF;
-    background: #4B77A4;
-    box-shadow: -53px 1px 20.2px 0px rgba(5, 35, 85, 0.25) inset, 8px 22px 12.3px 0px rgba(5, 35, 85, 0.25);
+.video-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0A1F44;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
-
+.video-button:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+.credits {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    font-size: 16px;
+    color: #4A6076;
+    cursor: pointer;
+}
+.left-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-image: url('.image/menu.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
