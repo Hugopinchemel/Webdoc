@@ -1,5 +1,5 @@
 @font-face {
-    font-family : 'FOT-NewRodin Pro B';
+    font-family: 'FOT-NewRodin Pro B';
     src: url('.font/FOT-NewRodin Pro B.woff2') format('woff2');
 }
 
@@ -10,26 +10,35 @@ body {
     text-align: center;
     color: #0A1F44;
 }
+
 .container {
     position: relative;
     width: 80%;
     margin: auto;
     padding-top: 50px;
 }
+
 .title {
     font-size: 48px;
     font-weight: bold;
 }
+
 .subtitle {
     font-size: 20px;
     color: #4A6076;
 }
+
 .video-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 40px;
+    margin-top: 15vh;
     padding-left: 20px;
+    gap: 10vh;
 }
 .video-button {
     display: flex;
@@ -43,9 +52,12 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
+
 .video-button:hover {
-    background: rgba(255, 255, 255, 0.8);
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
 }
+
 .credits {
     position: absolute;
     bottom: 20px;
@@ -54,7 +66,9 @@ body {
     color: #4A6076;
     cursor: pointer;
 }
+
 .left-background {
+    z-index: -1000;
     position: absolute;
     top: 0;
     left: 0;
@@ -67,12 +81,24 @@ body {
 }
 
 .video-preview {
-    width: 100%;
-    height: 100%;
-    background-image: url('o');
+    width: 100px;
+    height: 100px;
+    background-image: url('.image/bubble.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
     border-radius: 50px;
+}
+
+#video1{
+    margin-left: 2.5vw;
+}
+
+#video2 {
+margin-left: 5vw;
+}
+
+#video3 {
+margin-left: 2.5vw;
 }
