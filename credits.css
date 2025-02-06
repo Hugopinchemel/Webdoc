@@ -1,0 +1,56 @@
+
+body {
+    font-family: 'orbitron', sans-serif;
+
+    html {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%), linear-gradient(180deg, #7C9FC9 0%, #C1E8FF 75%, #5D90FF 100%);
+    }
+
+    text-align: center;
+    color: #0A1F44;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 5vw 90vw 5vw;
+    grid-template-rows: 10vh 85vh 5vh;
+}
+
+
+.credits-content {
+    grid-column: 2;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.credits-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.credits-equipe {
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.credits-images {
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.credits-remerciments {
+    font-size: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

@@ -4,36 +4,45 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Webdoc - Jeux vidéo et pop culture</title>
+    <link href="reset.css" rel="stylesheet">
     <link href="stylesheet.css" rel="stylesheet">
+
 </head>
 <body>
-<div class="left-background"></div>
-<div class="container">
+<div class="loading">
     <div class="title">Webdoc</div>
     <div class="subtitle">L'influence des jeux vidéos</div>
     <div class="subtitle">dans la pop culture</div>
+</div>
+
+<div class="left-background"></div>
+<div class="container">
     <p>Choisissez une vidéo</p>
 </div>
+<div class="window-element"></div>
+
+
+
 <div class="video-section">
-    <div class="video-button" id="video1">
-        <div class="video-preview"></div>
+    <div class="video-button" id="video1" >
+        <img src="./.image/bubble.svg">
         <div class="video-title">Vidéo 1</div>
     </div>
     <div class="video-button" id="video2">
-        <div class="video-preview"></div>
+        <img src="./.image/bubble.svg">
         <div class="video-title">Vidéo 2</div>
     </div>
     <div class="video-button" id="video3">
-        <div class="video-preview"></div>
+        <img src="./.image/bubble.svg">
         <div class="video-title">Vidéo 3</div>
     </div>
 </div>
 <div class="credits-area">
-    <div class="credits-button" onclick="open('credits.html')">
+    <div class="credits-button" id="creditsButton" data-href="credits.html">
         <img alt="Crédits" src="./.image/bubble.svg">
         <div class="credits">Crédits</div>
     </div>
 </div>
+<script src="index.js"></script>
 </body>
 </html>
-
