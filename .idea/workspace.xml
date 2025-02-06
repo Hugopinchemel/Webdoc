@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8058dcbd-7516-4ee1-9431-ddf6d21a30cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/videos/video-3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/credits.css" beforeDir="false" afterPath="$PROJECT_DIR$/credits.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crédits.html" beforeDir="false" afterPath="$PROJECT_DIR$/crédits.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -100,7 +101,7 @@
       <workItem from="1738773105217" duration="4238000" />
       <workItem from="1738833372045" duration="4742000" />
       <workItem from="1738838557332" duration="25000" />
-      <workItem from="1738838614604" duration="2419000" />
+      <workItem from="1738838614604" duration="6107000" />
     </task>
     <servers />
   </component>
