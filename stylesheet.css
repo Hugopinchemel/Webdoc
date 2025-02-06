@@ -46,13 +46,20 @@ body {
 .window-element {
     display: none;
     all: unset;
-
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 80vh;
+    padding-left: 15vw;
 }
 
 .window-element.active {
+    position: absolute;
     display: block;
-    grid-column: 2 / 16;
-    grid-row: 1 / 9;
+    top: 0;
+    left: 0;
+    width: 70vw;
+    height: 70vh;
 }
 
 

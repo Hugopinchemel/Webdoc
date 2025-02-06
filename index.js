@@ -7,10 +7,8 @@ window.onload = function () {
 document.addEventListener('DOMContentLoaded', () => {
   const contentContainer = document.querySelector('.window-element');
 
-  // Function to handle iframe creation and loading
   function loadInIframe(href) {
     if (href) {
-      // Create iframe and close button
       const iframeId = `iframe-${Date.now()}`;
       const iframe = `<div id="${iframeId}" style="position: relative; width: 100%; height: 100%;">
                                     <iframe src="${href}" style="width: 100%; height: 100%; border: none;"></iframe>
@@ -20,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Add click event listeners to all elements with data-href attributes
   document.querySelectorAll('[data-href]').forEach(element => {
     element.addEventListener('click', () => {
       const href = element.getAttribute('data-href');
@@ -28,7 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Close iframe function
   window.closeIFrame = function (iframeId) {
     document.getElementById(iframeId).remove();
   };
