@@ -1,0 +1,140 @@
+body {
+    font-family: 'orbitron', sans-serif;
+    text-align: center;
+    color: #0A1F44;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: 10px auto 10px;
+    backdrop-filter: blur(10px);
+}
+
+.credits-content {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.credits-title {
+    font-size: 4vw;
+    font-weight: bold;
+    max-width: 100%;
+    
+    text-overflow: ellipsis;
+}
+
+.credits-equipe,
+.credits-images,
+.credits-remerciments {
+    font-size: 2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    
+    text-overflow: ellipsis;
+}
+
+.loading {
+    font-size: 2.4vw;
+    max-width: 100%;
+    
+    text-overflow: ellipsis;
+}
+
+.title {
+    font-size: 9.6vw;
+    font-weight: bold;
+    max-width: 100%;
+    
+    text-overflow: ellipsis;
+}
+
+.subtitle {
+    font-size: 4vw;
+    color: #4A6076;
+    max-width: 100%;
+    
+    text-overflow: ellipsis;
+}
+
+.video-button {
+    font-size: 1.8vw;
+    margin-bottom: 2vw;
+    max-width: 100%;
+    
+    text-overflow: ellipsis;
+}
+
+.credits {
+    font-size: 1.6vw;
+    color: #4A6076;
+    max-width: 100%;
+    
+    text-overflow: ellipsis;
+}
+
+.video-button img {
+    width: 12.5vw;
+    height: 12.5vw;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.video-preview {
+    width: 10vw;
+    height: 10vw;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.credits-button img {
+    width: 6vw;
+    height: 6vw;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.top{
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: #ffffff;
+}
+
+.bottom{
+    grid-column: 1/4;
+    grid-row: 3;
+    background-color: #ffffff;
+}
+
+.right{
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #ffffff;
+}
+
+.left{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #ffffff;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+    grid-column: 2;
+    grid-row: 2;
+}
