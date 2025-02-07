@@ -5,21 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8058dcbd-7516-4ee1-9431-ddf6d21a30cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/langues/anglais/Credits.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/anglais/credits.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/anglais/index-eng.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/anglais/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/anglais/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/anglais/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/espagnol/Créditos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/espagnol/credits.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/espagnol/index-esp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/espagnol/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/espagnol/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/langues/espagnol/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videos/video-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/videos/video-2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.image/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.image/bubble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.image/bubble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.image/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.image/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/credits.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crédits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/anglais/Credits.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/anglais/credits.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/anglais/index-eng.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/anglais/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/anglais/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/anglais/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/espagnol/Créditos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/espagnol/credits.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/espagnol/index-esp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/espagnol/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/espagnol/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/langues/espagnol/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-3.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +80,8 @@
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/nebula/IdeaProjects/Webdoc/langues/anglais",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Nebula/Documents/GitHub/Webdoc",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,16 +99,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Nebula\Documents\GitHub\Webdoc\langues\anglais" />
+      <recent name="C:\Users\Nebula\Documents\GitHub\Webdoc\langues" />
       <recent name="C:\Users\nebula\IdeaProjects\Webdoc\langues\anglais" />
       <recent name="C:\Users\nebula\IdeaProjects\Webdoc\langues\espagnol" />
     </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
-      </set>
-    </attachedChunks>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nebula\Documents\GitHub\Webdoc\langues\espagnol" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
